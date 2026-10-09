@@ -1,0 +1,40 @@
+{
+  "method": "walk",
+  "time": null,
+  "useAccessibleOptions": false,
+  "tideOptions": {
+    "tideLevel": 100,
+    "avoidTide": false,
+    "bootsHeight": 0,
+  },
+  "walkingOptions": {
+    "walkSpeed": 1.39,
+    "usePublicTransport": false,
+    "bridgeWeight": 1,
+    "walkWidth": 0,
+  },
+  "rowBoatOptions": {
+    "boatSpeed": 1.39,
+    "boatWidth": 1.5,
+    "boatHeight": 1,
+    "boatDraft": 0.3,
+    "boatType": "row"
+  },
+  "motorBoatOptions": {
+    "boatSpeed": 5.56,
+    "boatWidth": 1.5,
+    "boatHeight": 1,
+    "boatDraft": 0.3,
+    "boatType": "motor"
+  },
+  "transportOptions": {
+    "preferPublicTransport": true
+  },
+  "accessibleOptions": {
+    "walkSpeed": 0.69,
+    "usePublicTransport": false,
+    "bridgeWeight": 3,
+    "walkWidth": 0.7
+  }
+
+}

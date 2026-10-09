@@ -1,0 +1,21 @@
+services:
+  dq_static_frontend:
+    container_name: dq_static_frontend
+    image: nginx:1.27-alpine
+    volumes:
+      - ./html:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    restart: unless-stopped
+    networks:
+      - default
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+        compress: "true"
+
+networks:
+  default:
+    name: dequa_nw
+    external: true

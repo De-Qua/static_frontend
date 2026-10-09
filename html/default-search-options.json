@@ -1,0 +1,37 @@
+{
+  "method": "walk",
+  "time": null,
+  "tideLevel": 100,
+  "walkingOptions": {
+    "walkSpeed": 1.39,
+    "avoidTide": false,
+    "preferPublicTransport": false,
+    "avoidPublicTransport": true,
+    "bridgeWeight": 1,
+    "bootsHeight": 0,
+    "useAccessibleOptions": false
+  },
+  "boatOptions": {
+    "walkSpeed": 1.39,
+    "avoidTide": false,
+    "avoidPublicTransport": false,
+    "preferPublicTransport": false,
+    "bridgeWeight": 1,
+    "bootsHeight": 0,
+    "boatSpeed": 1.39,
+    "width": 1.5,
+    "height": 1,
+    "draft": 0.3,
+    "type": "generic"
+  },
+  "accessibleOptions": {
+    "walkSpeed": 1.39,
+    "avoidTide": false,
+    "avoidPublicTransport": false,
+    "preferPublicTransport": true,
+    "bridgeWeight": 100,
+    "bootsHeight": 0,
+    "width": 0.7
+  }
+
+}
